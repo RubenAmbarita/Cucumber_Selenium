@@ -1,0 +1,34 @@
+1. menu ke link mvnrepository.com
+install selenium
+intall junit jupiter
+cucumber java
+cucumber junit
+
+dan masukkan ke dependency yang ada di file pom.xml
+
+2. setelah itu install chromium dan masukkan ke folder resource
+3. new package pada folder java dan namanya buat config
+4. setelah itu create file java pada package config bernama env_target
+5. ketikkan kedua protected pada file env_target
+//6. create file .java bernama Login pada folder test->java
+//7. ketikkan @test dan function sukses dan failed login
+//8. ketik import config.env_target pada login.java dipaling atas dan setelah itu ketik extends
+env_target pada class login.java
+//9. ketikkan yang ada di login.java tapi pura pura buat setproperties supaya errro dan run, sesuda
+itu ganti properties dengan setProperty
+//10. sesudah itu inspect halaman dan get path menjadi hasinnya begini : 
+
+button : //*[@id="login"]/button
+username: //*[@id="username"]
+password : //*[@id="password"]
+after success login : //*[@id="flash"]
+
+11. setelah itu ketikkan variable bernama duration
+12. setelah itu di pom.xml tambhkan library cucumber java dan juga cucumber junit import juga=> buka mvnrepository.com cari cucumber
+13. setelah itu buat folder resource dengan cara klik kanan new directory dan click resource setelah itu add folder bernama features di folder resource
+14. ketikkan tdd di file login.feature
+15. buat folder test step lewat generate di login feature
+16. buat folder bernama stepDef dibawah folder java
+17. buat file loginBdd.java dan ketikkan semua given when then format java
+18. buat folder bernama runner dibawah folder java
+19. buat file bernama RunTest.java dibawah folder bernama runner
